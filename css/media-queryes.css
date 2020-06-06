@@ -1,7 +1,7 @@
 @media (max-width: 900px) {
 	main .main{
 		grid-template-columns: 1fr;
-		grid-template-rows: 3fr;
+		grid-template-rows: 3fr;		
 	}
 	.main .main-img{
 		grid-row: 2;
@@ -19,12 +19,14 @@
 		grid-template-columns: 1fr;	
 		grid-gap: 20px;
 	}
-	.contact-main-container div a{
-		
+	.contact-main-container div a{		
 		font-size: 17px;
 	}
-	.contact-main-container div p{
-		
+	.contact-main-container div p{		
 		font-size: 15px;
 	}
+	.blogs-main .container-blogs{
+		grid-template:repeat(3, 1fr)/1fr;
+	}
+
 }
